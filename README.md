@@ -1,6 +1,6 @@
 <div align="center">
 
-<h2>Towards Generating a Probabilistic Ensemble of 3D Rigid Body \\ Simulations from an RGBD Image Using Gaussian Processes</h2>
+<h2>Towards Generating a Probabilistic Ensemble of 3D Rigid Body Simulations from an RGBD Image Using Gaussian Processes</h2>
 
 <div>
   Onur Beker<sup>1</sup>&emsp;
@@ -26,7 +26,6 @@ pip install torch torchvision open3d opencv-python scipy pillow tqdm GPy PyMCube
 Please note that as we use the [DINOv2](https://github.com/facebookresearch/dinov2) backbone to obtain feature descriptors from RGBD images, running the code requires a cuda-enabled GPU with minimum 3.5 GB VRAM.
 
 ## Getting started 
-```
 The file `app/dataset_filtering_experiments.ipynb` contains the code for the preprocessing, dataset creation, and data processing steps of our pipeline. It produces the same visualizations that were used in Fig.1 and Fig.2 of our project report.\
 The file `app/dataset_filtering_experiments.ipynb` contains the code for fitting a Gaussian process (GP) to the created dataset and sampling from its posterior to build the probabilistic ensemble of likely 3D reconstructions. It produces the same visualizations that were used in Fig.3 of our project report.
  
